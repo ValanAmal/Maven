@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: agent1
+pool: devops
 
 steps:
 - task: Maven@4
