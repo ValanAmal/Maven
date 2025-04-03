@@ -11,7 +11,7 @@ pool: agent1
 steps:
 - task: Maven@4
   inputs:
-    mavenPomFile: 'target/pom.xml'
+    mavenPomFile: 'main/target/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.23'
